@@ -63,6 +63,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         continue-on-error: true
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          cname: guide.whiskeysockets.io
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          cname: guide.wkarts.io
           publish_dir: ./build
